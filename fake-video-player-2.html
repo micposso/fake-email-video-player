@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fake Video Player</title>
+<style>
+
+* {padding:0; margin:0;}
+
+form { overflow:auto; }
+
+*[id]#play { background:url(http://svcs.responsys.net/proofer/uploads/sent_email/87000/86163/images/play.gif) 0 0 no-repeat; background-size:250px 144px !important; cursor: pointer; display: block !important; width:250px !important; height:144px !important; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position:relative; background-color: rgba(0, 0, 0, 0.3); z-index:1000; }
+
+
+*[id]#pause { background:url(http://svcs.responsys.net/proofer/uploads/sent_email/87000/86163/images/spacer.gif) 0 0 no-repeat; background-size:250px 144px !important; cursor: pointer; display: block !important; width:250px !important; height:144px !important; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position:relative; background-color: rgba(0, 0, 0, 0.3); z-index:100; top:0; }
+
+*[id]#checkbox-play { display:none !important; }
+
+*[id]#checkbox-play:checked ~ #play { display:none !important; }
+
+*[id]#checkbox-pause { display:none !important;}
+
+*[id]#checkbox-pause:checked ~ #pause { background:url(http://svcs.responsys.net/proofer/uploads/sent_email/87000/86163/images/pause.gif) 0 0 no-repeat; background-size:250px 144px !important; display: block !important;  }
+
+.image { width:250px; height:144px; position:relative; position:absolute; top:0px}
+
+.play { width:250px; height:144px;}
+
+#container { height:144px; overflow:hidden;}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+
+<div id="container">
+
+<form>
+
+
+<input id="checkbox-play" type="checkbox" />
+<label for="checkbox-play" id="play"></label>
+
+
+<input id="checkbox-pause" type="checkbox" />
+<label for="checkbox-pause" id="pause"></label>
+
+
+<div class="image" style="background-image:url(http://svcs.responsys.net/proofer/uploads/sent_email/87000/86163/images/The_Avengers-3mgs.gif); background-repeat:no-repeat;"></div>
+
+</form>
+</div>
+
+
+</body>
+</html>
