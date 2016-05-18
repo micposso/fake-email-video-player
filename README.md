@@ -1,14 +1,24 @@
 # Fake Email Video Player for HTML email
 
-This is a fake simulation of a video player that displays an animated GIF with a PLAY and PAUSE button. This is a good simple alternative to showing cinematic sequences when HTML5 video is not supported. 
+This is a fake simulation of a video player that displays an animated GIF with a PLAY and PAUSE button in iOS9. This is a simple alternative to enhance the video experience in apple devices that stopped supporting HTML5 video since the iOS9 upgrade.  
 
-Supported Platforms
+Current support of HTML5 video in email:
 
--iOS 8,9
+Apple mail - SUPPORTED
+Outlook.com - SUPPORTED
+Android 4.5+ - SUPPORTED
+iOS 8 - SUPPORTED
 
--Android 4,5
+Email clients that do not support HTML5 video and possible fall back alternatives:
 
-Use a static or animated gif for web clients.
+iOS 9 - NOT SUPPORTED - FAKE VIDEO PLAYER FALLBACK
+Outlook - NOT SUPPORTED - STATIC IMAGE FALL BACK
+Gmail app - NOT SUPPORTED - ANIMATED GIF FALLBACK
+yahooo - NOT SUPPORTED - ANIMATED GIF FALLBACK
+AOL - NOT SUPPORTED - ANIMATED GIF FALLBACK
+Gmail - NOT SUPPORTED - ANIMATED GIF FALLBACK
+
+
  
 ![fake email video player](http://michaelposso.com/images/demo-screen.gif)
 
