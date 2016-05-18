@@ -5,17 +5,26 @@ This is a fake simulation of a video player that displays an animated GIF with a
 Current support of HTML5 video in email:
 
 Apple mail - SUPPORTED
+
 Outlook.com - SUPPORTED
+
 Android 4.5+ - SUPPORTED
+
 iOS 8 - SUPPORTED
+
 
 Email clients that do not support HTML5 video and possible fall back alternatives:
 
 iOS 9 - NOT SUPPORTED - FAKE VIDEO PLAYER FALLBACK
+
 Outlook - NOT SUPPORTED - STATIC IMAGE FALL BACK
+
 Gmail app - NOT SUPPORTED - ANIMATED GIF FALLBACK
+
 yahooo - NOT SUPPORTED - ANIMATED GIF FALLBACK
+
 AOL - NOT SUPPORTED - ANIMATED GIF FALLBACK
+
 Gmail - NOT SUPPORTED - ANIMATED GIF FALLBACK
 
 
