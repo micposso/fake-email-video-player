@@ -29,6 +29,6 @@ Gmail - NOT SUPPORTED - ANIMATED GIF FALLBACK
 
 
  
-![fake email video player](http://michaelposso.com/images/demo-screen.gif)
+![fake email video player](http://michaelposso.com/img/demo-screen.gif)
 
 NOTE: Since this is an animated GIF, is recomended to keep the fize size to less than 2mg for optimal download time. In 4gLTE, a 2mg file downloads in 3 seconds depending on connection speed. 
